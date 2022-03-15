@@ -1,7 +1,17 @@
+:root {
+    --cor-de-fundo: rgb(231, 86, 86);
+    --cor-de-quadrado: rgba(255, 255, 0, 0.4);
+    --tamanho-de-fonte: 60px;
+    --width: 400px;
+    --height: 200px;
+}
+
+
+
 body, html{
     width: 100%;
     height: 100%;
-    background-color: aqua;
+    background-color: var(--cor-de-fundo);
 }
 
 * {
@@ -12,8 +22,8 @@ body, html{
 
 #header-id {
     background-color: blue;
-    width: 200px;
-    height: 200px;
+    width: var(--width);
+    height: var(--height);
 }
 
 /* #header-id p {
@@ -24,23 +34,23 @@ body, html{
 
 .text {
     color: brown;
-    font-size: 30px;
+    font-size: var(--tamanho-de-fonte);
     font-weight: bold;
-    margin: 15px 0 15px 0;
+    margin: 15px 0;
     
 }
 
 #main-id {
-    background: #ff0088;
-    width: 200px;
-    height: 200px;
+    background: var(--cor-de-quadrado);
+    width:  var(--width);
+    height: var(--height);
 
 }
 
 #footer-id {
     background: #456;
-    width: 200px;
-    height: 200px;
+    width: var(--width);
+    height: var(--height);
 }
 
 

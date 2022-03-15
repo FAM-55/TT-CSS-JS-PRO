@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main, body {
+    background: #000;
+    width: 100vw;
+    height: 100vh;
+}
+
+p {
+    color: #000;
+}
+
+.exemplo1 {
+    width: 350px;
+    height: 200px;
+    background: rebeccapurple;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 5px;
+    align-items: stretch;
+}
+
+.exemplo1-box1, 
+.exemplo1-box2, 
+.exemplo1-box3, 
+.exemplo1-box4 {
+    width: 80px;
+    /* height: 60px;  quando usar o align-items:stretch não coloco altura*/ 
+    background: #fff;
+    margin: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+
+.exemplo2 {
+    width: 350px;
+    height: 200px;
+    background: rebeccapurple;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+   
+}
+
+.exemplo2-box1, 
+.exemplo2-box2, 
+.exemplo2-box3, 
+.exemplo2-box4 {
+    width: 80px;
+    height: 60px;
+    background: #fff;
+    margin: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+
+.exemplo3 {
+    width: 350px;
+    height: 200px;
+    background: rebeccapurple;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 5px;
+    align-items: baseline;
+    
+   
+}
+
+.exemplo3-box1, 
+.exemplo3-box2, 
+.exemplo3-box3, 
+.exemplo3-box4 {
+    width: 80px;
+    height: 60px;
+    background: #fff;
+    margin: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+
+.exemplo3-box2 {
+    height: 100px;
+}
+
+.exemplo4 {
+    width: 350px;
+    height: 240px;
+    background: rebeccapurple;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    
+   
+}
+
+.exemplo4-box1, 
+.exemplo4-box2, 
+.exemplo4-box3, 
+.exemplo4-box4 {
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    margin: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+
+.exemplo5 {
+    width: 100px;
+    height: 240px;
+    background: rebeccapurple;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column-reverse;
+    
+  
+}
+
+.exemplo5-box1, 
+.exemplo5-box2, 
+.exemplo5-box3, 
+.exemplo5-box4 {
+    width: 80px;
+    height: 60px;
+    background: #fff;
+    margin: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+
+
+.exemplo6 {
+    width: 100px;
+    height: 240px;
+    background: rebeccapurple;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column;
+    
+  
+}
+
+.exemplo6-box1, 
+.exemplo6-box2, 
+.exemplo6-box3, 
+.exemplo6-box4 {
+    width: 80px;
+    height: 60px;
+    background: #fff;
+    margin: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+
+.exemplo6-box1 {
+    order: 3;
+}
+.exemplo6-box2 {
+    order: 1;
+}
+.exemplo6-box3 {
+    order: 2;
+}
+.exemplo6-box4 {
+    order: 4;
+}
+
+.container1, .container2 {
+    width: 350px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    flex-direction: column;
+}
+
+.container1 {
+    align-items: flex-start;
+}
+
+.container2 {
+    align-items: flex-end;
+}
+
+.exemplo7 {
+    width: 350px;
+    height: 200px;
+    background: rebeccapurple;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+   
+}
+
+.exemplo7-box1, 
+.exemplo7-box2, 
+.exemplo7-box3, 
+.exemplo7-box4 {
+    width: 80px;
+    height: 60px;
+    background: #fff;
+    margin: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+
+
+
+
+
+
+
+
